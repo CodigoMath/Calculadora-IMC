@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.hide {
+    display: none !important;
+}
+
+.container {
+    min-width: 550px;
+    min-height: 730px;
+    background-color: #fff;
+    padding: 2.563rem;
+    border-radius: 8px;
+    box-shadow: 4px 4px 16px rgb(0, 0, 0, 25%);
+}
+
+/* IMC FORM */
+
+#calc-container h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 0.75rem;
+}
+
+#calc-container h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+    margin: 0px 0px 48px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1.125rem;
+}
+
+.form-control label {
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.form-control input {
+    padding: 1rem 0.5rem;
+}
+
+.action-control {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    gap: 1rem;
+}
+
+button {
+    text-transform: uppercase;
+    height: 55px;
+    padding: 1rem 5.75rem;
+    background-color: #212529;
+    cursor: pointer;
+    border: none;
+    flex: 1;
+    color: #F8F9FA;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+#clear-btn {
+    background-color: #f44236;
+}
+
+/* TABLE */
+
+#result-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#imc-number {
+    font-size: 60px;
+    margin-bottom: 12px
+}
+
+#imc-info {
+    font-size: 24px;
+    font-weight: medium;
+    margin-bottom: 12px;
+}
+
+#result-container h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #808080;
+    margin-bottom: 45px;
+}
+
+#imc-table {
+    margin: 12px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.table-header {
+    font-weight: 400;
+    color: #212529;
+}
+
+.table-header, .table-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #7B7C83;
+}
+
+.table-header h4, .table-data p {
+    flex: 1;
+}
+
+/*.table-header h4:nth-child(3), .table-data p:nth-child(3) {
+    max-width: ;
+}*/
+
+#back-btn {
+    align-self: center;
+}
+
+.good {
+    color: #10c02e;
+}
+
+.low {
+    color: #dbce12;
+}
+
+.medium {
+    color: #db6212;
+}
+
+.high{
+    color: #db1912;
+}
